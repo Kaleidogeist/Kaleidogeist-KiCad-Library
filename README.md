@@ -1,2 +1,2 @@
 # Kaleidogeist's KiCad Library
-Licensed under CC BY 4.0
+Licensed under [CERN-OHL-S-2.0](https://cern-ohl.web.cern.ch/).
