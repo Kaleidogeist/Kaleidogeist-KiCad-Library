@@ -7784,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GB-Package:SOT-23-6"
+		(property "Footprint" "Kaleidogeist-Package:SOT-23-6"
 			(at 17.78 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11258,7 +11258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GB-Package:USON-10_2.5x1.0mm_P0.5mm"
+		(property "Footprint" "Kaleidogeist-Package:USON-10_2.5x1.0mm_P0.5mm"
 			(at -24.13 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12369,7 +12369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GB-Package:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Kaleidogeist-Package:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12583,7 +12583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GB-Package:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Kaleidogeist-Package:Texas_VQFN-HR-10_2.1x2.1mm"
 			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12861,7 +12861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GB-Package:SOT-23-6"
+		(property "Footprint" "Kaleidogeist-Package:SOT-23-6"
 			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13056,7 +13056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GB-Package:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Kaleidogeist-Package:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
