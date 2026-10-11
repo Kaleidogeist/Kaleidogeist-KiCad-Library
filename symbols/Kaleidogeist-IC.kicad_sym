@@ -14367,7 +14367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kaleidogeist-Package:QFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm"
 			(at 26.67 -77.14 0)
 			(show_name no)
 			(do_not_autoplace no)
