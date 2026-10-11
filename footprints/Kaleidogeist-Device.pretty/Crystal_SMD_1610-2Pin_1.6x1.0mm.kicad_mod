@@ -5,21 +5,10 @@
 	(layer "F.Cu")
 	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 	(tags "SMD SMT Crystal")
-	(property "Reference" "REF**"
-		(at 0 -1.4 0)
-		(layer "F.SilkS")
-		(uuid "35a66525-6f44-4173-b434-6a5c4dabd515")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "Crystal_SMD_1610-2Pin_1.6x1.0mm"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "9f784b2d-3b84-44d8-821a-5d6ec820445d")
+		(uuid "bb8b899e-d9e2-476e-9333-4aea64ba501e")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "10245d7b-66eb-4411-b718-be57b7622ee3")
+		(uuid "cc969c13-a73f-4413-bbb1-79d4972526f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,10 +31,21 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c3c069e-4040-4c8a-922f-8f59db3b64e1")
+		(uuid "7cb21f50-b00b-4151-b03f-226fc628532d")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "a76ddf49-8a8b-461b-b1b0-abdcdb8e51cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "50ef8f8e-a22b-4584-9938-4f661b41e997")
+		(uuid "6b8351bd-533f-47d8-96fd-7ce09c5fe904")
 	)
 	(fp_line
 		(start -0.7 0.625)
@@ -69,47 +69,47 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fd1b342e-324b-498b-848c-fbf8dce5908c")
+		(uuid "ebfdbfb9-3e04-42bc-9a21-d3683b4c7931")
 	)
 	(fp_line
-		(start -1.025 -0.725)
-		(end -1.025 0.725)
+		(start -1 -0.7)
+		(end -1 0.7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1cdddf0a-e9f0-4931-9595-fa38856aa0ee")
+		(uuid "af825ce4-e342-4f41-bb3b-23e4a169d332")
 	)
 	(fp_line
-		(start -1.025 -0.725)
-		(end 1.025 -0.725)
+		(start -1 -0.7)
+		(end 1 -0.7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1ec4e0b6-d39d-48ce-bd9c-cc5037b15ee1")
+		(uuid "4ab11c68-b194-4e30-9020-ad988da3ef81")
 	)
 	(fp_line
-		(start -1.025 0.725)
-		(end 1.025 0.725)
+		(start -1 0.7)
+		(end 1 0.7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a7ea5a30-b6d7-4da5-843c-cd638af66672")
+		(uuid "09d0b22c-b975-46d2-8a04-6629d0b70003")
 	)
 	(fp_line
-		(start 1.025 -0.725)
-		(end 1.025 0.725)
+		(start 1 -0.7)
+		(end 1 0.7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c9f362e8-9207-464f-91ca-74f299379c1e")
+		(uuid "c9dd38c9-514e-4165-8a88-206ee492b5bf")
 	)
 	(fp_line
 		(start -0.825 -0.525)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "59df502a-c531-4080-8827-2c37ecf32be6")
+		(uuid "8f157bf1-bcfd-47a2-8272-67b34c4211f8")
 	)
 	(fp_line
 		(start -0.825 -0.525)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2aa82851-9900-4987-b292-29f8c39d5cec")
+		(uuid "0392d51a-6c0c-435b-9c5b-996dcb578055")
 	)
 	(fp_line
 		(start -0.825 0.525)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0773f6b6-c794-480b-b21e-9117d90a0eee")
+		(uuid "9420268f-13c4-4662-8c8b-7d58e42657c0")
 	)
 	(fp_line
 		(start 0.825 -0.525)
@@ -149,12 +149,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "32f5fdce-6685-418f-a4dc-145dc27ce9d1")
+		(uuid "4f452bea-c2cf-45cc-8a91-dde677d30710")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)
 		(layer "F.Fab")
-		(uuid "49caa89e-ca8a-4a2c-982b-016d3c3968bb")
+		(uuid "0b1e143c-038c-4fcd-b25e-a9a6f09f600b")
 		(effects
 			(font
 				(size 1 1)
@@ -166,13 +166,13 @@
 		(at 0.55 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e1ff644b-fa93-4c54-838f-b471d83fc4ae")
+		(uuid "98a1cb12-96c0-44ee-816a-d2ff0c6926b4")
 	)
 	(pad "2" smd rect
 		(at -0.55 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "66f47ba8-14cd-48e7-b765-bf6622fba42c")
+		(uuid "6b93ae0e-a6d1-4a46-8b4d-1eb1e850f54a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Kaleidogeist-KiCad-Library/3dmodels/Kaleidogeist-Device-3D/Crystal_SMD_1610-2Pin_1.6x1.0mm.step"

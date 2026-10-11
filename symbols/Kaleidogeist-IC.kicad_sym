@@ -14348,7 +14348,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 45.72 0)
+			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14358,7 +14358,7 @@
 			)
 		)
 		(property "Value" "nPM1300"
-			(at 0 43.18 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14368,7 +14368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 -82.22 0)
+			(at 26.67 -77.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -14380,7 +14380,7 @@
 			)
 		)
 		(property "Datasheet" "https://infocenter.nordicsemi.com/pdf/nPM1300_OPS_v0.7.pdf"
-			(at 26.67 -182.22 0)
+			(at 26.67 -177.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -14392,7 +14392,7 @@
 			)
 		)
 		(property "Description" "Power Management IC (PMIC) with unique system management features"
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -14404,7 +14404,7 @@
 		)
 		(symbol "nPM1300_1_0"
 			(pin output line
-				(at -20.32 -5.08 0)
+				(at -22.86 -5.08 0)
 				(length 2.54)
 				(name "LED1"
 					(effects
@@ -14422,7 +14422,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -7.62 0)
+				(at -22.86 -7.62 0)
 				(length 2.54)
 				(name "LED2"
 					(effects
@@ -14440,7 +14440,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 17.78 180)
+				(at 22.86 -22.86 180)
 				(length 2.54)
 				(name "LSIN1/VINLDO1"
 					(effects
@@ -14458,7 +14458,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 7.62 180)
+				(at 22.86 -30.48 180)
 				(length 2.54)
 				(name "LSOUT1/VOUTLDO1"
 					(effects
@@ -14476,7 +14476,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 12.7 180)
+				(at 22.86 -25.4 180)
 				(length 2.54)
 				(name "LSIN2/VINLDO2"
 					(effects
@@ -14494,7 +14494,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 2.54 180)
+				(at 22.86 -33.02 180)
 				(length 2.54)
 				(name "LSOUT2/VOUTLDO2"
 					(effects
@@ -14512,7 +14512,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -27.94 180)
+				(at 22.86 0 180)
 				(length 2.54)
 				(name "VOUT2"
 					(effects
@@ -14530,7 +14530,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -43.18 90)
+				(at 0 -38.1 90)
 				(length 2.54)
 				(name "AVSS"
 					(effects
@@ -14550,8 +14550,8 @@
 		)
 		(symbol "nPM1300_1_1"
 			(rectangle
-				(start -17.78 40.64)
-				(end 17.78 -40.64)
+				(start -20.32 45.72)
+				(end 20.32 -35.56)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -14561,7 +14561,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -7.62 180)
+				(at 22.86 22.86 180)
 				(length 2.54)
 				(name "VOUT1"
 					(effects
@@ -14579,7 +14579,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 22.86 10.16 180)
 				(length 2.54)
 				(name "PVSS1"
 					(effects
@@ -14597,7 +14597,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -17.78 180)
+				(at 22.86 12.7 180)
 				(length 2.54)
 				(name "SW1"
 					(effects
@@ -14615,7 +14615,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 27.94 180)
+				(at 22.86 27.94 180)
 				(length 2.54)
 				(name "PVDD"
 					(effects
@@ -14633,7 +14633,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -38.1 180)
+				(at 22.86 -10.16 180)
 				(length 2.54)
 				(name "SW2"
 					(effects
@@ -14651,7 +14651,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -43.18 90)
+				(at 22.86 -12.7 180)
 				(length 2.54)
 				(name "PVSS2"
 					(effects
@@ -14669,7 +14669,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 25.4 0)
+				(at -22.86 12.7 0)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -14687,7 +14687,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 22.86 0)
+				(at -22.86 10.16 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -14705,7 +14705,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 20.32 0)
+				(at -22.86 7.62 0)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -14723,7 +14723,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 17.78 0)
+				(at -22.86 5.08 0)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -14741,7 +14741,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 15.24 0)
+				(at -22.86 2.54 0)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -14759,7 +14759,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -17.78 0)
+				(at 0 48.26 270)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
@@ -14777,7 +14777,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 7.62 0)
+				(at -22.86 -20.32 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -14795,7 +14795,7 @@
 				)
 			)
 			(pin input clock
-				(at -20.32 10.16 0)
+				(at -22.86 -17.78 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -14813,7 +14813,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 2.54 0)
+				(at -22.86 -12.7 0)
 				(length 2.54)
 				(name "SHPHLD"
 					(effects
@@ -14831,7 +14831,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -38.1 0)
+				(at -22.86 -33.02 0)
 				(length 2.54)
 				(name "VSET2"
 					(effects
@@ -14849,7 +14849,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -35.56 0)
+				(at -22.86 -30.48 0)
 				(length 2.54)
 				(name "VSET1"
 					(effects
@@ -14867,7 +14867,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -30.48 0)
+				(at -22.86 22.86 0)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -14885,7 +14885,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -27.94 0)
+				(at -22.86 25.4 0)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -14903,7 +14903,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 33.02 180)
+				(at 22.86 33.02 180)
 				(length 2.54)
 				(name "VSYS"
 					(effects
@@ -14921,7 +14921,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 38.1 0)
+				(at -22.86 43.18 0)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -14939,7 +14939,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 38.1 180)
+				(at 22.86 43.18 180)
 				(length 2.54)
 				(name "VBUSOUT"
 					(effects
@@ -14957,7 +14957,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 33.02 0)
+				(at -22.86 38.1 0)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -14975,7 +14975,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 30.48 0)
+				(at -22.86 35.56 0)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -14993,7 +14993,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -2.54 0)
+				(at -22.86 -2.54 0)
 				(length 2.54)
 				(name "LED0"
 					(effects
