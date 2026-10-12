@@ -1,0 +1,271 @@
+(footprint "RotaryEncoder_Skyloong_Hotswap"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SKYLOONG hotswap knob module with internal switch")
+	(property "Reference" "REF**"
+		(at 0 4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "84b394b1-d72d-4505-94d4-674d038333e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder_Skyloong_Hotswap"
+		(at 0 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57eb6c96-f388-4520-a51b-336b1ff17691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cf768f9-0a83-4164-b214-f04cc975d7b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c38e5ef7-5274-4b5e-b079-7395a5142ea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.525 -9.525)
+		(end -9.525 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "744795a2-f91d-45e0-bf06-e3b9ad58f5d7")
+	)
+	(fp_line
+		(start -9.525 9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "eda6e250-7e94-407f-af74-0cecf14490da")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -5 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3a23f642-d23b-4a2a-8546-5bc2d9095b37")
+	)
+	(fp_line
+		(start -7 -5)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ddadf89a-c46a-49ae-8af3-15be28f7c7e5")
+	)
+	(fp_line
+		(start -7 5)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f9eab1be-137c-4539-94b1-e81d4ed5beea")
+	)
+	(fp_line
+		(start -7 7)
+		(end -5 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "013a6960-53bc-4b75-9db6-fac7276dbbe5")
+	)
+	(fp_line
+		(start 5 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "af08237b-523c-48c5-84a9-4ec06dfc89bd")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 5 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "440844cf-fa44-466d-8f94-631945a7e362")
+	)
+	(fp_line
+		(start 7 -5)
+		(end 7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c6fac86b-7ab2-4b75-8e5e-c764bf456e62")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "30035f28-ff70-4ad5-859d-93d4bcad9060")
+	)
+	(fp_line
+		(start 9.525 -9.525)
+		(end -9.525 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae1a7ebe-23cb-4c26-9a66-d0dcf67e8457")
+	)
+	(fp_line
+		(start 9.525 9.525)
+		(end 9.525 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "29cfdbe8-14ef-4d8f-8627-8bb55d5c3815")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54ba5258-87cb-4289-a590-3b4a87c1ade9")
+	)
+	(fp_line
+		(start -7 7)
+		(end 7 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff8fabe8-d286-413e-9bdf-3312494f06eb")
+	)
+	(fp_line
+		(start 7 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da07206b-70e6-4a4d-b367-5afee784135c")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1800063c-349c-4006-b673-f1291ee094c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2d0a986-b0c1-4d23-9611-dbc965178814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "be58693c-c95a-4409-948a-c0ec82ca87f6")
+	)
+	(pad "A" smd circle
+		(at 3.5 4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4aa2f357-a0bf-484e-9b30-ffb33b01f7e1")
+	)
+	(pad "B" smd circle
+		(at 3.5 1.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5593cdf9-a75f-41b8-880f-2957decd249a")
+	)
+	(pad "C" smd circle
+		(at -3.5 1.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "920f29ea-85d8-4b13-b3fa-18a8ed65bd47")
+	)
+	(pad "S" smd circle
+		(at -3.5 4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "002e2eb1-b9f2-4bed-b5a3-102a5974d969")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Kaleidogeist-KiCad-Library/3dmodels/Kaleidogeist-RotaryEncoder-3D/RotaryEncoder_Skyloong_Hotswap.step"
+		(offset
+			(xyz 0 0 5.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
