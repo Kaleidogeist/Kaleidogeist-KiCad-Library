@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "E73-2G4M08S1C-52840"
+	(symbol "E73-2G4M08S1C"
 		(pin_names
 			(offset 1.016)
 		)
@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 2.54 -50.8 0)
+			(at 1.27 -40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,8 +22,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "E73-2G4M08S1C-52840"
-			(at 2.54 -53.34 0)
+		(property "Value" "E73-2G4M08S1C"
+			(at 1.27 -38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,29 +33,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "Kaleidogeist-Breakout:Breakout_Ebyte_E73-2G4M08S1C"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66,10 +44,32 @@
 				)
 			)
 		)
-		(symbol "E73-2G4M08S1C-52840_0_1"
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "E73-2G4M08S1C_0_1"
 			(rectangle
-				(start -15.24 45.72)
-				(end 15.24 -48.26)
+				(start -17.78 33.02)
+				(end 17.78 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -79,9 +79,9 @@
 				)
 			)
 		)
-		(symbol "E73-2G4M08S1C-52840_1_1"
-			(pin input line
-				(at 17.78 -43.18 180)
+		(symbol "E73-2G4M08S1C_1_1"
+			(pin bidirectional line
+				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "P1.11"
 					(effects
@@ -97,11 +97,12 @@
 						)
 					)
 				)
+				(alternate "TRACEDATA2" bidirectional line)
 			)
-			(pin input line
-				(at 17.78 -40.64 180)
+			(pin bidirectional line
+				(at 20.32 -7.62 180)
 				(length 2.54)
-				(name "P1.10"
+				(name "P1.10(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,9 +118,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 25.4 180)
+				(at -20.32 -17.78 0)
 				(length 2.54)
-				(name "P0.03/AIN1"
+				(name "AIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -133,11 +134,12 @@
 						)
 					)
 				)
+				(alternate "P0.03(LF)" bidirectional line)
 			)
 			(pin input line
-				(at 17.78 -15.24 180)
+				(at -20.32 -25.4 0)
 				(length 2.54)
-				(name "P0.28/AIN4"
+				(name "AIN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -151,9 +153,10 @@
 						)
 					)
 				)
+				(alternate "P0.28(LF)" bidirectional line)
 			)
 			(pin power_in line
-				(at 0 -50.8 90)
+				(at 0 -38.1 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -170,10 +173,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -45.72 180)
+			(pin bidirectional line
+				(at 20.32 -10.16 180)
 				(length 2.54)
-				(name "P1.13"
+				(name "P1.13(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -189,9 +192,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 27.94 180)
+				(at -20.32 -15.24 0)
 				(length 2.54)
-				(name "P0.02/AIN0"
+				(name "AIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -205,11 +208,12 @@
 						)
 					)
 				)
+				(alternate "P0.02(LF)" bidirectional line)
 			)
 			(pin input line
-				(at 17.78 -17.78 180)
+				(at -20.32 -27.94 0)
 				(length 2.54)
-				(name "P0.29/AIN5"
+				(name "AIN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -223,11 +227,12 @@
 						)
 					)
 				)
+				(alternate "P0.29(LF)" bidirectional line)
 			)
 			(pin input line
-				(at 17.78 -22.86 180)
+				(at -20.32 -33.02 0)
 				(length 2.54)
-				(name "P0.31/AIN7"
+				(name "AIN7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,11 +246,12 @@
 						)
 					)
 				)
+				(alternate "P0.31(LF)" bidirectional line)
 			)
 			(pin input line
-				(at 17.78 -20.32 180)
+				(at -20.32 -30.48 0)
 				(length 2.54)
-				(name "P0.30/AIN6"
+				(name "AIN6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -259,11 +265,12 @@
 						)
 					)
 				)
+				(alternate "P0.30(LF)" bidirectional line)
 			)
-			(pin input line
-				(at -17.78 15.24 0)
+			(pin bidirectional line
+				(at -20.32 5.08 0)
 				(length 2.54)
-				(name "P0.00/XL1"
+				(name "XL1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -277,9 +284,10 @@
 						)
 					)
 				)
+				(alternate "P0.00" bidirectional line)
 			)
-			(pin input line
-				(at 17.78 -12.7 180)
+			(pin bidirectional line
+				(at 20.32 5.08 180)
 				(length 2.54)
 				(name "P0.26"
 					(effects
@@ -296,10 +304,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 5.08 0)
+			(pin bidirectional line
+				(at -20.32 -5.08 0)
 				(length 2.54)
-				(name "P0.01/XL2"
+				(name "XL2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -313,9 +321,10 @@
 						)
 					)
 				)
+				(alternate "P0.01" bidirectional line)
 			)
-			(pin input line
-				(at 17.78 17.78 180)
+			(pin bidirectional line
+				(at 20.32 25.4 180)
 				(length 2.54)
 				(name "P0.06"
 					(effects
@@ -333,9 +342,9 @@
 				)
 			)
 			(pin input line
-				(at 17.78 20.32 180)
+				(at -20.32 -22.86 0)
 				(length 2.54)
-				(name "P0.05/AIN3"
+				(name "AIN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -349,9 +358,10 @@
 						)
 					)
 				)
+				(alternate "P0.05" bidirectional line)
 			)
-			(pin input line
-				(at 17.78 12.7 180)
+			(pin bidirectional line
+				(at 20.32 22.86 180)
 				(length 2.54)
 				(name "P0.08"
 					(effects
@@ -368,8 +378,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -38.1 180)
+			(pin bidirectional line
+				(at 20.32 -22.86 180)
 				(length 2.54)
 				(name "P1.09"
 					(effects
@@ -385,11 +395,12 @@
 						)
 					)
 				)
+				(alternate "TRACEDATA3" bidirectional line)
 			)
 			(pin input line
-				(at 17.78 22.86 180)
+				(at -20.32 -20.32 0)
 				(length 2.54)
-				(name "P0.04/AIN2"
+				(name "AIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -403,9 +414,10 @@
 						)
 					)
 				)
+				(alternate "P0.04" bidirectional line)
 			)
 			(pin power_in line
-				(at -7.62 48.26 270)
+				(at -5.08 35.56 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -422,8 +434,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 5.08 180)
+			(pin bidirectional line
+				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "P0.12"
 					(effects
@@ -439,9 +451,10 @@
 						)
 					)
 				)
+				(alternate "TRACEDATA1" bidirectional line)
 			)
-			(pin passive line
-				(at 0 -50.8 90)
+			(pin power_in line
+				(at 0 -38.1 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -459,8 +472,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 15.24 180)
+			(pin bidirectional line
+				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "P0.07"
 					(effects
@@ -476,9 +489,10 @@
 						)
 					)
 				)
+				(alternate "TRACECLK" input line)
 			)
 			(pin power_in line
-				(at -2.54 48.26 270)
+				(at -2.54 35.56 270)
 				(length 2.54)
 				(name "VDDH"
 					(effects
@@ -495,8 +509,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -50.8 90)
+			(pin power_in line
+				(at 0 -38.1 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -515,7 +529,7 @@
 				)
 			)
 			(pin power_out line
-				(at 2.54 48.26 270)
+				(at 5.08 35.56 270)
 				(length 2.54)
 				(name "DCCH"
 					(effects
@@ -532,10 +546,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -20.32 0)
+			(pin bidirectional line
+				(at 20.32 30.48 180)
 				(length 2.54)
-				(name "P0.18/RESET"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -549,9 +563,10 @@
 						)
 					)
 				)
+				(alternate "P0.18" bidirectional line)
 			)
 			(pin power_in line
-				(at 7.62 48.26 270)
+				(at 0 35.56 270)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -568,8 +583,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 0 180)
+			(pin bidirectional line
+				(at 20.32 17.78 180)
 				(length 2.54)
 				(name "P0.15"
 					(effects
@@ -586,8 +601,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 35.56 180)
+			(pin bidirectional line
+				(at -20.32 17.78 0)
 				(length 2.54)
 				(name "USB_D-"
 					(effects
@@ -604,8 +619,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -2.54 180)
+			(pin bidirectional line
+				(at 20.32 15.24 180)
 				(length 2.54)
 				(name "P0.17"
 					(effects
@@ -622,8 +637,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 33.02 180)
+			(pin bidirectional line
+				(at -20.32 15.24 0)
 				(length 2.54)
 				(name "USB_D+"
 					(effects
@@ -640,8 +655,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -5.08 180)
+			(pin bidirectional line
+				(at 20.32 12.7 180)
 				(length 2.54)
 				(name "P0.20"
 					(effects
@@ -658,8 +673,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 2.54 180)
+			(pin bidirectional line
+				(at 20.32 20.32 180)
 				(length 2.54)
 				(name "P0.13"
 					(effects
@@ -676,8 +691,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -7.62 180)
+			(pin bidirectional line
+				(at 20.32 10.16 180)
 				(length 2.54)
 				(name "P0.22"
 					(effects
@@ -694,8 +709,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -10.16 180)
+			(pin bidirectional line
+				(at 20.32 7.62 180)
 				(length 2.54)
 				(name "P0.24"
 					(effects
@@ -712,8 +727,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -27.94 180)
+			(pin bidirectional line
+				(at 20.32 -15.24 180)
 				(length 2.54)
 				(name "P1.00"
 					(effects
@@ -729,9 +744,10 @@
 						)
 					)
 				)
+				(alternate "TRACEDATA0" bidirectional line)
 			)
-			(pin input line
-				(at -17.78 -15.24 0)
+			(pin bidirectional line
+				(at -20.32 30.48 0)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -748,10 +764,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -30.48 180)
+			(pin bidirectional line
+				(at 20.32 0 180)
 				(length 2.54)
-				(name "P1.02"
+				(name "P1.02(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -766,8 +782,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -17.78 0)
+			(pin bidirectional line
+				(at -20.32 27.94 0)
 				(length 2.54)
 				(name "SWDCLK"
 					(effects
@@ -784,10 +800,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -33.02 180)
+			(pin bidirectional line
+				(at 20.32 -2.54 180)
 				(length 2.54)
-				(name "P1.04"
+				(name "P1.04(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -802,10 +818,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 10.16 180)
+			(pin bidirectional line
+				(at 20.32 -30.48 180)
 				(length 2.54)
-				(name "P0.09/NFC1"
+				(name "P0.09(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -819,11 +835,12 @@
 						)
 					)
 				)
+				(alternate "NFC1" bidirectional line)
 			)
-			(pin input line
-				(at 17.78 -35.56 180)
+			(pin bidirectional line
+				(at 20.32 -5.08 180)
 				(length 2.54)
-				(name "P1.06"
+				(name "P1.06(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -838,10 +855,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 7.62 180)
+			(pin bidirectional line
+				(at 20.32 -33.02 180)
 				(length 2.54)
-				(name "P0.10/NFC2"
+				(name "P0.10(LF)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -855,6 +872,7 @@
 						)
 					)
 				)
+				(alternate "NFC2" bidirectional line)
 			)
 		)
 		(embedded_fonts no)
